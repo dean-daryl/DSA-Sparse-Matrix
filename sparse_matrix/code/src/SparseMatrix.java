@@ -178,7 +178,6 @@ class SparseMatrix {
                 writer.write("(" + element.row + ", " + element.col + ", " + element.value + ")\n");
             }
             writer.close();
-            System.out.println("The result has been written to output/output.txt");
 
 
         } catch (IOException e) {
